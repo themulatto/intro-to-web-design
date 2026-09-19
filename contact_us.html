@@ -10,6 +10,44 @@
         <a href="about_us.html">About Us</a>
         <a href="contact_us.html">Contact Us</a>
     <h1>Contact Us</h1>
+    <hr/>
+    <h2>Locations</h2>
+    <th>Logo</th>
+    <table border="1">
+        <tr>
+            <th>City</th>
+            <th>Address</th>
+            <th>Phone</th>
+        </tr>
+        <td><img src="logo.png" alt="Company logo" width="100"></td>
+        <tr>
+            <td>New York</td>
+            <td>123 Main St, New York, NY 10001</td>
+            <td>(212) 555-1234</td>
+        </tr>
+        <tr>
+            <td>Los Angeles</td>
+            <td>456 Sunset Blvd, Los Angeles, CA 90028</td>
+            <td>(323) 555-5678</td>
+        </tr>
+        <tr>
+            <td>Chicago</td>
+            <td>789 Michigan Ave, Chicago, IL 60611</td>
+            <td>(312) 555-9012</td>
+        </tr>
     <p>If you have any questions or feedback, feel free to reach out to us!</p>
+    </table>
+    <h2>General Inquiries</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
 </body>
 </html>
